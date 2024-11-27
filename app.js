@@ -12,10 +12,10 @@ btn.addEventListener("click",async()=>{
 function show(cllArr){
  let list = document.querySelector("#list");
  list.innerHTML ="";
- for(cllg of cllArr){
+ for(cllgs of cllArr){
     let li = document.createElement("li");
-    console.log(cllg.name);
-    li.innerText = cllg.name;
+    console.log(cllgs.name);
+    li.innerText = cllgs.name;
     list.appendChild(li);
  }
 
